@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>rootConsulting!</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+
+        <section id="encabezado">
+            <div id="encabezado1">
+                <img id="izquierda" class="logo" src="./assets/logo.jpeg" alt="Nuestro logo">
+                <div id="encabezado11">
+                    <a href="#inicio">
+                        <button class="boton-encabezado">Inicio</button>
+                    </a>
+                    <a href="#acerca-de-nosotros">
+                        <button class="boton-encabezado">Acerca de Nosotros</button> 
+                    </a> 
+                    <a href="#nuestros-servicios">
+                        <button class="boton-encabezado">Nuestros Servicios</button>
+                    </a>
+                    <a href="#contacto">
+                        <button class="boton-encabezado">Contacto</button>
+                    </a>
+                </div>
+            </div>      
+        </section>
+
+        <section id="inicio">
+            <h1 class="titulo1">Consultoría en TI</h1>
+                <button class="boton-de-seleccionar" id="boton-descripcion">Descripción</button> 
+                <button class="boton-de-seleccionar" id="boton-contactanos">Contáctanos</button> 
+        </section>
+
+        <section id="solicita-inf-personalizada"> 
+            <a href="#formulario">
+                <button class="boton-de-seleccionar" id="boton-inf-personalizada">Solicita Información Personalizada 🡆</button> 
+            </a>
+        </section>
+
+        <section id="acerca-de-nosotros">
+            <img id="izquierda" class="logo1" src="./assets/logo.jpeg" alt="Nuestro logo">
+            <div id="acerca-de-nosotros1">
+                <h1 class="titulo2">Acerca de Nosotros</h1>
+                <p class="parrafo">¿Quién no se ha dejado llevar por la ternura de estos mininos? Pues a lo largo de la historia hubo muchos creativos que se cautivaron con la personalidad de estos animales plasmándolos en sus obras. Por motivo del Día Internacional del Gato te presentamos datos curiosos sobre los gatos en la historia del Arte.</p>
+            </div>
+        </section>
+
+        <section id="nuestros-servicios">
+            <div class="titulo3">
+                <h1 class="titulo33">Nuestros Servicios</h1>
+            </div>
+        <!--
+            <div class="fondo-servicios">
+                <img class="imagen-servicio" id="img1" src="./assets/fondoservicios.jpg" alt="Nuestro logo">
+            </div>
+        -->
+            <div class="serviciosU">   
+                <div id="servicio1" class="servicios4">
+                    <img class="servicios" id="img1" src="./assets/servidor.png" alt="Nuestro logo">
+                    <div class="cuadro">
+                        <div class="subtitulo-servicio">
+                            <h4 class="subtitulo">Instalación y Configuración de servidores</h4>                              
+                        </div>
+                        <div id="descripcion-servicio">
+                            <h5 class="des-servicio">Desarrollos Personalizados</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div id="servicio2" class="servicios4">
+                    <img class="servicios" id="img1" src="./assets/cablegris.jpg" alt="Nuestro logo">
+                    <div class="cuadro">
+                        <div class="subtitulo-servicio">
+                            <h4 class="subtitulo">Diagnóstico de Red</h4>
+                        </div>
+                        <div id="descripcion-servicio">
+                            <h5 class="des-servicio">Desarrollos Personalizados</h5>
+                        </div>
+                    </div>    
+                </div>
+                <div id="servicio3" class="servicios4">
+                    <img class="servicios" id="img1" src="./assets/switch.jpg" alt="Nuestro logo">
+                    <div class="cuadro">
+                        <div class="subtitulo-servicio">
+                            <h4 class="subtitulo">Configuración de Switches y Routers</h4>                           
+                        </div>
+                        <div id="descripcion-servicio">
+                            <h5 class="des-servicio">Desarrollos Personalizados</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div id="servicio4" class="servicios4">
+                    <img class="servicios" id="img1" src="./assets/develop.jpg" alt="Nuestro logo">
+                    <div class="cuadro">
+                        <div class="subtitulo-servicio">
+                            <h4 class="subtitulo">Desarrollos Personalizados</h4>                   
+                        </div>
+                        <div id="descripcion-servicio">
+                            <h5 class="des-servicio">Desarrollos Personalizados</h5>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h1 class="titulo1">Nuestras Plataformas</h1>
+        </section>
+
+        <section id="formulario">
+            <div id="caja-formulario">
+                <h3 class="titulo-formulario">Solicita Información Personalizada</h3>
+
+                <label class="campos" for="name">Nombre:</label>
+                    <div id="nombres">
+                        <input type="text" id="name" name="nombre" placeholder="Escriba su nombre">
+                        <input type="text" id="name" name="apellidos" placeholder="Escriba sus apellidos">
+                    </div>
+            
+                <label class="campos" for="telefono">Número telefónico:</label>
+                <input type="text" id="name" name="telefono" maxlength="12" minlength="10" placeholder="Ingrese un número telefónico">
+
+                <label class="campos" for="email">E-mail:</label>
+                <input type="text" id="name" name="email" placeholder="Ingrese su e-mail">
+ 
+                <label class="campos" for="sector">Sector Empresarial:</label>
+                <input type="text" id="sector" name="empresa" placeholder="¿A qué sector de actividad económica pertenece?">
+
+                <label class="campos" for="descripcion">Servicio Requerido:</label>
+                <textarea type="text" id="descripcion" name="descripcion" rows="10" cols="60"
+                placeholder="Ingrese una breve descripción del servicio que requiere.">
+                </textarea>
+            </div>
+        </section>
+
+        <div>
+            
+        </div>
+    </body>
+</html>
